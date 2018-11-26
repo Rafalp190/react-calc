@@ -1,7 +1,8 @@
 import React from 'react'
 import '../style/calcStyle.scss'
 
-const App = () => (
+const App = () => {
+return(
   <div className="calculator">
   <div className="input" id="input"></div>
   <div className="buttons">
@@ -9,7 +10,6 @@ const App = () => (
       <div>+</div>
       <div>-</div>
       <div>&times;</div>
-      <div>&divide;</div>
     </div>
     <div className="leftPanel">
       <div className="numbers">
@@ -35,7 +35,7 @@ const App = () => (
     </div>
     <div className="equal" id="result">=</div>
   </div>
-</div>
-)
+</div>)
+}
 
 export default App
