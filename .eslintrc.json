@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb",
+  "rules": {
+      "semi": 0,
+      "import/extensions": 0,
+      "react/destructuring-assignment": 0,
+      "no-restricted-globals": 0,
+      "global-require": 0,
+      "jsx-filename-extension": 0
+  }
+}
